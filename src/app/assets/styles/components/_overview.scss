@@ -1,0 +1,37 @@
+.overview {
+  width: 100%;
+
+  &__items {
+  }
+
+  &__item {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 0.25rem;
+    border-bottom: 1px solid var(--gray-25);
+    padding: 0.5rem 0rem;
+
+    &:last-child {
+      border-bottom: none;
+    }
+  }
+
+  &__label {
+    @include text-sm;
+    @include text-medium;
+    color: var(--gray-900);
+  }
+
+  &__content {
+    @include text-xs;
+    color: var(--gray-900);
+  }
+
+  &__empty {
+    @include text-xs;
+    @include text-medium;
+    color: var(--gray-900);
+    text-align: center;
+  }
+}

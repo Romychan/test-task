@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/symbol" fill="none" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <symbol viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="none" id="chevron">
+    <path d="M6 9L12 15L18 9" stroke-linecap="round" stroke-linejoin="round"/>
+  </symbol>
+
+  <symbol viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="close">
+    <path d="M18 6L6 18" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M6 6L18 18" stroke-linecap="round" stroke-linejoin="round"/>
+  </symbol>
+</svg>

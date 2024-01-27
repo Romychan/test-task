@@ -1,0 +1,25 @@
+.users {
+  &__inner {
+    padding: 10rem 0rem;
+  }
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  &__content {
+  }
+
+  &__title {
+    @include text-xl;
+    @include text-medium;
+    color: var(--gray-900);
+    margin-bottom: 2rem;
+  }
+
+  &__table {
+    overflow-y: auto;
+  }
+}
