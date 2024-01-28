@@ -38,7 +38,7 @@
 
 .collage-drawer {
   width: auto;
-  max-width: 100%;
+  max-width: calc(100% - 1rem);
   height: 100% !important;
   max-height: calc(90% - 1rem) !important;
   margin: 0;
@@ -65,6 +65,14 @@
   &__image {
     height: 100%;
     display: block;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .collage {
+    &__items {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
   }
 }
 
